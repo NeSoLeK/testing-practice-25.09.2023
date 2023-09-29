@@ -1,6 +1,5 @@
 import csv
-from csv import DictReader
-import modules.config as config
+import config as config
 def takeBooks():
     with open(config.CSV_FILE_PATH, newline='') as f:
         reader = csv.reader(f)
